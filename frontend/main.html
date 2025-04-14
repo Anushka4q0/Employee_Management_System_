@@ -11,9 +11,10 @@
   <h1>Employee Management System</h1>
 
   <div class="form">
-    <input type="text" id="empName" placeholder="Employee Name" />
-    <input type="text" id="empRole" placeholder="Role" />
-    <input type="email" id="empEmail" placeholder="Email" />
+    <input type="text" id="empName" placeholder="Enter employee name" />
+    <input type="text" id="empRole" placeholder="Enter job title" />
+    <input type="email" id="empEmail" placeholder="Enter contact email" />
+
     <button onclick="addOrUpdateEmployee()" id="submitBtn">Add Employee</button>
   </div>
 
@@ -21,10 +22,11 @@
     <table>
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Role</th>
-          <th>Email</th>
-          <th>Actions</th>
+            <th>Employee Name</th>
+            <th>Job Title</th>
+            <th>Contact Email</th>
+            <th>Options</th>
+            
         </tr>
       </thead>
       <tbody id="employeeList"></tbody>
